@@ -4,12 +4,13 @@
 
     ```sh
     composer install
+    yarn install
     ```
 
 2. Générer les fichiers de distribution :
 
     ```sh
-    ./vendor/bin/jigsaw build
+    yarn run local
     ```
 3. Prévisualiser le site :
 
