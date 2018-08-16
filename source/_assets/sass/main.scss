@@ -2,7 +2,11 @@
 'abstracts/bootstrap-variables';
 
 @import
-'node_modules/bootstrap/scss/bootstrap';
+'~bootstrap/scss/bootstrap',
+'~@fortawesome/fontawesome-free-webfonts/scss/fontawesome',
+'~@fortawesome/fontawesome-free-webfonts/scss/fa-regular',
+'~@fortawesome/fontawesome-free-webfonts/scss/fa-solid',
+'~@fortawesome/fontawesome-free-webfonts/scss/fa-brands';
 // 'vendors/';
 
 @import
